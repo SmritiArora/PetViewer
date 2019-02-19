@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		560FCE8D2215ADCC002352A1 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 560FCE8C2215ADCC002352A1 /* icon.png */; };
+		562D4238221156DD00C84019 /* ObjectMapclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D4237221156DD00C84019 /* ObjectMapclass.swift */; };
+		562D423A22118CE400C84019 /* ExplorePets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D423922118CE400C84019 /* ExplorePets.swift */; };
+		56574062220E9FC000DBAEC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56574061220E9FC000DBAEC6 /* AppDelegate.swift */; };
+		56574064220E9FC000DBAEC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56574063220E9FC000DBAEC6 /* ViewController.swift */; };
+		56574067220E9FC000DBAEC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56574065220E9FC000DBAEC6 /* Main.storyboard */; };
+		56574069220E9FC100DBAEC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56574068220E9FC100DBAEC6 /* Assets.xcassets */; };
+		5657406C220E9FC100DBAEC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5657406A220E9FC100DBAEC6 /* LaunchScreen.storyboard */; };
+		566F9549221288790026E5EB /* ExporeObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F9548221288790026E5EB /* ExporeObjectMapper.swift */; };
+		566F954D2212CBBD0026E5EB /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F954C2212CBBD0026E5EB /* Card.swift */; };
+		566F954F2212CF990026E5EB /* Card.xib in Resources */ = {isa = PBXBuildFile; fileRef = 566F954E2212CF990026E5EB /* Card.xib */; };
+		567B77C32213EE87008ABCD3 /* MyPetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567B77C22213EE87008ABCD3 /* MyPetsViewController.swift */; };
+		56FB8FBD221AA7C900FCBD6A /* ServiceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FB8FBC221AA7C900FCBD6A /* ServiceWrapper.swift */; };
+		FDCD14A8E4CDB65A4FCBE7A0 /* Pods_Pet_Viewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE553255EFE58B4134A04144 /* Pods_Pet_Viewer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08E11B25F52FDF5F4A96F825 /* Pods-Pet Viewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Viewer.release.xcconfig"; path = "Target Support Files/Pods-Pet Viewer/Pods-Pet Viewer.release.xcconfig"; sourceTree = "<group>"; };
+		15CF07255B0A4F4D6027D35E /* Pods-Pet Viewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pet Viewer.debug.xcconfig"; path = "Target Support Files/Pods-Pet Viewer/Pods-Pet Viewer.debug.xcconfig"; sourceTree = "<group>"; };
+		560FCE8C2215ADCC002352A1 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		562D4237221156DD00C84019 /* ObjectMapclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMapclass.swift; sourceTree = "<group>"; };
+		562D423922118CE400C84019 /* ExplorePets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePets.swift; sourceTree = "<group>"; };
+		5657405E220E9FC000DBAEC6 /* Pet Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pet Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56574061220E9FC000DBAEC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56574063220E9FC000DBAEC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56574066220E9FC000DBAEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56574068220E9FC100DBAEC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5657406B220E9FC100DBAEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5657406D220E9FC100DBAEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566F9548221288790026E5EB /* ExporeObjectMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExporeObjectMapper.swift; sourceTree = "<group>"; };
+		566F954C2212CBBD0026E5EB /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		566F954E2212CF990026E5EB /* Card.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Card.xib; sourceTree = "<group>"; };
+		567B77C22213EE87008ABCD3 /* MyPetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPetsViewController.swift; sourceTree = "<group>"; };
+		56FB8FBC221AA7C900FCBD6A /* ServiceWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceWrapper.swift; sourceTree = "<group>"; };
+		EE553255EFE58B4134A04144 /* Pods_Pet_Viewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pet_Viewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5657405B220E9FC000DBAEC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCD14A8E4CDB65A4FCBE7A0 /* Pods_Pet_Viewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A3AFE223092FCA6722BD35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15CF07255B0A4F4D6027D35E /* Pods-Pet Viewer.debug.xcconfig */,
+				08E11B25F52FDF5F4A96F825 /* Pods-Pet Viewer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		535E0A5021AB171D7868D021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE553255EFE58B4134A04144 /* Pods_Pet_Viewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56574055220E9FC000DBAEC6 = {
+			isa = PBXGroup;
+			children = (
+				56574060220E9FC000DBAEC6 /* Pet Viewer */,
+				5657405F220E9FC000DBAEC6 /* Products */,
+				03A3AFE223092FCA6722BD35 /* Pods */,
+				535E0A5021AB171D7868D021 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5657405F220E9FC000DBAEC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5657405E220E9FC000DBAEC6 /* Pet Viewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56574060220E9FC000DBAEC6 /* Pet Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				562D423922118CE400C84019 /* ExplorePets.swift */,
+				566F954C2212CBBD0026E5EB /* Card.swift */,
+				566F954E2212CF990026E5EB /* Card.xib */,
+				562D4237221156DD00C84019 /* ObjectMapclass.swift */,
+				56574061220E9FC000DBAEC6 /* AppDelegate.swift */,
+				56574063220E9FC000DBAEC6 /* ViewController.swift */,
+				56FB8FBC221AA7C900FCBD6A /* ServiceWrapper.swift */,
+				56574065220E9FC000DBAEC6 /* Main.storyboard */,
+				567B77C22213EE87008ABCD3 /* MyPetsViewController.swift */,
+				56574068220E9FC100DBAEC6 /* Assets.xcassets */,
+				566F9548221288790026E5EB /* ExporeObjectMapper.swift */,
+				5657406A220E9FC100DBAEC6 /* LaunchScreen.storyboard */,
+				5657406D220E9FC100DBAEC6 /* Info.plist */,
+				560FCE8C2215ADCC002352A1 /* icon.png */,
+			);
+			path = "Pet Viewer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5657405D220E9FC000DBAEC6 /* Pet Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56574070220E9FC100DBAEC6 /* Build configuration list for PBXNativeTarget "Pet Viewer" */;
+			buildPhases = (
+				AF1B2AEA03E0C7BA5B1FDC2D /* [CP] Check Pods Manifest.lock */,
+				5657405A220E9FC000DBAEC6 /* Sources */,
+				5657405B220E9FC000DBAEC6 /* Frameworks */,
+				5657405C220E9FC000DBAEC6 /* Resources */,
+				51869E34EEA27C6F2975F73F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pet Viewer";
+			productName = "Pet Viewer";
+			productReference = 5657405E220E9FC000DBAEC6 /* Pet Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56574056220E9FC000DBAEC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Smriti Arora";
+				TargetAttributes = {
+					5657405D220E9FC000DBAEC6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 56574059220E9FC000DBAEC6 /* Build configuration list for PBXProject "Pet Viewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56574055220E9FC000DBAEC6;
+			productRefGroup = 5657405F220E9FC000DBAEC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5657405D220E9FC000DBAEC6 /* Pet Viewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5657405C220E9FC000DBAEC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5657406C220E9FC100DBAEC6 /* LaunchScreen.storyboard in Resources */,
+				560FCE8D2215ADCC002352A1 /* icon.png in Resources */,
+				566F954F2212CF990026E5EB /* Card.xib in Resources */,
+				56574069220E9FC100DBAEC6 /* Assets.xcassets in Resources */,
+				56574067220E9FC000DBAEC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51869E34EEA27C6F2975F73F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pet Viewer/Pods-Pet Viewer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Poi/Poi.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Poi.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pet Viewer/Pods-Pet Viewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF1B2AEA03E0C7BA5B1FDC2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pet Viewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5657405A220E9FC000DBAEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56574064220E9FC000DBAEC6 /* ViewController.swift in Sources */,
+				56FB8FBD221AA7C900FCBD6A /* ServiceWrapper.swift in Sources */,
+				566F954D2212CBBD0026E5EB /* Card.swift in Sources */,
+				56574062220E9FC000DBAEC6 /* AppDelegate.swift in Sources */,
+				567B77C32213EE87008ABCD3 /* MyPetsViewController.swift in Sources */,
+				566F9549221288790026E5EB /* ExporeObjectMapper.swift in Sources */,
+				562D4238221156DD00C84019 /* ObjectMapclass.swift in Sources */,
+				562D423A22118CE400C84019 /* ExplorePets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56574065220E9FC000DBAEC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56574066220E9FC000DBAEC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5657406A220E9FC100DBAEC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5657406B220E9FC100DBAEC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5657406E220E9FC100DBAEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5657406F220E9FC100DBAEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56574071220E9FC100DBAEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15CF07255B0A4F4D6027D35E /* Pods-Pet Viewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pet Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pet-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56574072220E9FC100DBAEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08E11B25F52FDF5F4A96F825 /* Pods-Pet Viewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pet Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pet-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56574059220E9FC000DBAEC6 /* Build configuration list for PBXProject "Pet Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5657406E220E9FC100DBAEC6 /* Debug */,
+				5657406F220E9FC100DBAEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56574070220E9FC100DBAEC6 /* Build configuration list for PBXNativeTarget "Pet Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56574071220E9FC100DBAEC6 /* Debug */,
+				56574072220E9FC100DBAEC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56574056220E9FC000DBAEC6 /* Project object */;
+}

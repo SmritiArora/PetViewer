@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Card" customModule="Pet_Viewer" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Card" customModule="Pet_Viewer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="272" height="411"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sushi" translatesAutoresizingMaskIntoConstraints="NO" id="q0E-C9-pZr">
+                    <rect key="frame" x="0.0" y="0.0" width="272" height="411"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sushi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OfG-Nk-FVK">
+                    <rect key="frame" x="0.0" y="377" width="272" height="34"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="32"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="q0E-C9-pZr" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="E6m-bD-3sb"/>
+                <constraint firstItem="OfG-Nk-FVK" firstAttribute="leading" secondItem="q0E-C9-pZr" secondAttribute="leading" id="OSi-m7-lBb"/>
+                <constraint firstItem="OfG-Nk-FVK" firstAttribute="trailing" secondItem="q0E-C9-pZr" secondAttribute="trailing" id="QA6-lQ-ycO"/>
+                <constraint firstItem="OfG-Nk-FVK" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="377" id="Tvd-z6-shA"/>
+                <constraint firstItem="q0E-C9-pZr" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="qr0-kx-Fqc"/>
+                <constraint firstItem="OfG-Nk-FVK" firstAttribute="bottom" secondItem="q0E-C9-pZr" secondAttribute="bottom" id="ru2-Do-8Jw"/>
+                <constraint firstItem="q0E-C9-pZr" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="zD0-7d-PMg"/>
+                <constraint firstItem="q0E-C9-pZr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="zbu-3t-x41"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="mealImage" destination="q0E-C9-pZr" id="9f2-eH-Xgh"/>
+                <outlet property="mealTitle" destination="OfG-Nk-FVK" id="eDO-Yc-J7e"/>
+            </connections>
+            <point key="canvasLocation" x="147.19999999999999" y="-196.55172413793105"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sushi" width="700" height="467"/>
+    </resources>
+</document>
